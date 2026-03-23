@@ -1,0 +1,8 @@
+{
+  "name": "telemetry-server",
+  "version": "1.0.0",
+  "main": "telemetry.js",
+  "scripts": {
+    "start": "node telemetry.js"
+  }
+}
