@@ -6,8 +6,7 @@ const path  = require('path');
 
 const STORE_FILE  = path.join(__dirname, 'metrics.json');
 const CONFIG_FILE = path.join(__dirname, 'config.json');
-const PORT        = 3000;
-
+const PORT = process.env.PORT || 3000;
 // ── helpers ────────────────────────────────────────────────────────────────
 
 function readStore() {
